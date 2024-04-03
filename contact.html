@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Pet Vacation</title>
+        <link rel="stylesheet" href = "style.css"></link>
+        <script src="https://kit.fontawesome.com/053905a0e0.js" 
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="sub-header">
+     <nav>
+        <div class="nav-links" id="navLinks">
+           
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href = "./index.html">Home</a></li>
+                <li><a href = "./about.html">About</a></li>
+                <li><a href = "./ourpets.html">Services</a></li>
+                <li><a href = "./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+</section>
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114964.52300824487!2d-80.22945845000007!3d25.782407500000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C%20FL!5e0!3m2!1sen!2sus!4v1710881478297!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+        <div>
+            <i class="fa fa-home"></i>
+            
+            <h5>1238 NW, East Building</h5>
+            <p>Miami, Fl</p>
+          
+         </div>
+         <div>
+            <i class="fa fa-phone"></i>
+            
+            <h5>+1 8464785764</h5>
+            <p>Monday to Sunday, 10AM to 6PM</p>
+      
+         </div>
+         <div>
+            <i class="fa fa-envelope-o"></i>
+            
+            <h5>petvacations@gmail.com</h5>
+            <p>Email your questions!</p>
+          
+         </div>
+        </div>
+    <div class="contact-col">
+        <form action="font-handler.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="text" name="email" placeholder="Enter email address" required>
+            <input type="text" name="subject" placeholder="Enter your subject" required>
+            <textarea rows = "8" name="message" placeholder="Message" required></textarea>
+            <button type = "submit" class="hero-btn red-btn">Send 
+                Message</button>    
+        </form>
+    </div> 
+</div>  
+  
+</section>
+    
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Our first concern is for your pet's well-being.
+                We've put in place strict safety guidelines and 
+                host verifications to make sure that every stay<br>
+                is completely safe, and pet-friendly. Our community 
+                guidelines encourage conscientious and considerate pet 
+                hosting, guaranteeing a delightful experience for all parties.</p>
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+    
+                </div>
+                <p>Made with <i class="fa fa-heart-o"></i> by Maria Romero</p>
+    </section>
+    
+        </div>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            
+            function showMenu(){
+                navLinks.style.left = "0";
+            }
+            function hideMenu(){
+                navLinks.style.left = "-200px";
+            }
+        </script>   
+       
+    </body>
+    </html
